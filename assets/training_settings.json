@@ -1,0 +1,27 @@
+{
+  "training_images": 70000,
+  "training_image_names_sha256": "b3a25e8e371c8eabe61e535ac20dc63bd09fb579032569581caf69b2d014dd03",
+  "target_classes": [
+    "traffic_sign",
+    "traffic_light"
+  ],
+  "proposal_method": "mser_canny",
+  "expansion_factors": [
+    1,
+    1.25,
+    1.5,
+    2
+  ],
+  "window_size": 32,
+  "positive_iou": 0.5,
+  "negative_iou": 0.2,
+  "positives_per_object": 5,
+  "negatives_per_image": 100,
+  "max_positive_samples": 100000,
+  "max_negative_samples": 200000,
+  "classifier": "random-forest",
+  "trees": 200,
+  "min_samples_leaf": 2,
+  "seed": 42,
+  "jobs": 2
+}

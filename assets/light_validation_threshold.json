@@ -1,0 +1,23 @@
+{
+  "class": "traffic_light",
+  "source_split": "validation_subset",
+  "model_sha256": "2f1fff759f107d7dbfce1c702d94ece5743a3108e4abea6c5f5219848ccf0db4",
+  "nms_iou": 0.3,
+  "best_validation_threshold": {
+    "score_threshold": 0.8990772092001178,
+    "true_positive": 567,
+    "false_positive": 2197,
+    "false_negative": 1983,
+    "precision": 0.20513748191027498,
+    "recall": 0.2223529411764706,
+    "f1": 0.21339856981558147,
+    "precision_percent": 20.5137481910275,
+    "recall_percent": 22.235294117647058,
+    "f1_percent": 21.339856981558146
+  },
+  "evaluated_images": 1000,
+  "ground_truth_objects": 2550,
+  "minimum_available_score_threshold": 0.0,
+  "iou_threshold": 0.5,
+  "note": "Validation threshold selection on saved post-NMS predictions. Lower thresholds require a new detection run. Scores are processed in descending order with complete tie groups; filtering higher thresholds preserves greedy NMS and matching decisions."
+}

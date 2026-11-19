@@ -1,0 +1,101 @@
+{
+  "detection": [
+    {
+      "class": "traffic_sign",
+      "processed_images": 20000,
+      "ground_truth_objects": 68992,
+      "true_positive": 12014,
+      "false_positive": 50964,
+      "false_negative": 56978,
+      "precision_percent": 19.07650290577662,
+      "recall_percent": 17.413613172541744,
+      "f1_percent": 18.207168295824808,
+      "mean_detection_seconds": 4.509891828424134
+    },
+    {
+      "class": "traffic_light",
+      "processed_images": 20000,
+      "ground_truth_objects": 52817,
+      "true_positive": 11773,
+      "false_positive": 45443,
+      "false_negative": 41044,
+      "precision_percent": 20.576412192393736,
+      "recall_percent": 22.29017172501278,
+      "f1_percent": 21.399034835004045,
+      "mean_detection_seconds": 3.500710863996699
+    }
+  ],
+  "color": {
+    "split": "test",
+    "complete": true,
+    "processed_images": 20000,
+    "score_threshold": 0.8990772092001178,
+    "predicted_objects": 57216,
+    "correctly_localized_lights": 11773,
+    "correct_colors": 9887,
+    "color_accuracy_percent": 83.98029389280558,
+    "per_class": [
+      {
+        "color": "red",
+        "support": 3272,
+        "precision": 0.9517374517374517,
+        "recall": 0.9040342298288508,
+        "f1": 0.9272727272727272
+      },
+      {
+        "color": "yellow",
+        "support": 189,
+        "precision": 0.11175785797438882,
+        "recall": 0.5079365079365079,
+        "f1": 0.183206106870229
+      },
+      {
+        "color": "green",
+        "support": 7851,
+        "precision": 0.98531549869148,
+        "recall": 0.8632021398547955,
+        "f1": 0.9202254056622988
+      },
+      {
+        "color": "unknown",
+        "support": 461,
+        "precision": 0.0603448275862069,
+        "recall": 0.12147505422993492,
+        "f1": 0.08063354931605471
+      }
+    ],
+    "confusion_labels": [
+      "red",
+      "yellow",
+      "green",
+      "unknown"
+    ],
+    "confusion_matrix": [
+      [
+        2958,
+        229,
+        17,
+        68
+      ],
+      [
+        84,
+        96,
+        1,
+        8
+      ],
+      [
+        27,
+        251,
+        6777,
+        796
+      ],
+      [
+        39,
+        283,
+        83,
+        56
+      ]
+    ],
+    "note": "Color metrics include only one-to-one matched detections at the chosen threshold. Matrix rows are reference colors; columns are predictions. Unknown reference colors mean unspecified annotations, not necessarily unlit lamps. HSV parameters are initial settings; scores are not probabilities. Per-class undefined precision, recall and F1 are reported as zero."
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "split": "test",
+  "format": "jsonl_one_record_per_image_including_empty_predictions",
+  "box_format": "xyxy",
+  "coordinate_system": "original_image_pixels",
+  "files": {
+    "traffic_sign": {
+      "path": "traffic_sign.jsonl",
+      "images": 20000,
+      "predictions": 62978,
+      "sha256": "3a4cb7079ff6d6f20dd1fd2334d234b23847472826bf203e1c9a3e0f96b7a0d5",
+      "model_sha256": "579403c040a901e4a6370c4320387940340dcadbca4d148d19d3b78cea95aa44",
+      "score_threshold": 0.8963265737455289,
+      "nms_iou": 0.3
+    },
+    "traffic_light": {
+      "path": "traffic_light.jsonl",
+      "images": 20000,
+      "predictions": 57216,
+      "sha256": "2f0faf79cae72bc1780e42567abcef552d9c8ff2e0ab81238b861a9e78035ac4",
+      "model_sha256": "2f1fff759f107d7dbfce1c702d94ece5743a3108e4abea6c5f5219848ccf0db4",
+      "score_threshold": 0.8990772092001178,
+      "nms_iou": 0.3
+    },
+    "traffic_light_colors": {
+      "path": "traffic_light_colors.jsonl",
+      "images": 20000,
+      "predictions": 57216,
+      "sha256": "afc3ff621436e6f3a7cb7fe7343caf7eaf07362328e3ded7e50c58849fbe14e7",
+      "model_sha256": "2f1fff759f107d7dbfce1c702d94ece5743a3108e4abea6c5f5219848ccf0db4",
+      "score_threshold": 0.8990772092001178,
+      "nms_iou": 0.3,
+      "color_config": {
+        "min_saturation": 0.4,
+        "min_value": 0.5,
+        "min_component_pixels": 2,
+        "min_component_fraction": 0.005,
+        "dominance_ratio": 1.2,
+        "hue_ranges_degrees": {
+          "red": [
+            [
+              0,
+              20
+            ],
+            [
+              340,
+              360
+            ]
+          ],
+          "yellow": [
+            [
+              20,
+              75
+            ]
+          ],
+          "green": [
+            [
+              75,
+              175
+            ]
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "seed": 42,
+  "available_positive_samples": 681828,
+  "available_negative_samples": 6993196,
+  "selected_positive_samples": 100000,
+  "selected_negative_samples": 200000,
+  "max_positive_samples": 100000,
+  "max_negative_samples": 200000,
+  "feature_array_bytes": 488400000
+}

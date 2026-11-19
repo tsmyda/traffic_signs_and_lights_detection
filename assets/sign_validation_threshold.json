@@ -1,0 +1,23 @@
+{
+  "class": "traffic_sign",
+  "source_split": "validation_subset",
+  "model_sha256": "579403c040a901e4a6370c4320387940340dcadbca4d148d19d3b78cea95aa44",
+  "nms_iou": 0.3,
+  "best_validation_threshold": {
+    "score_threshold": 0.8963265737455289,
+    "true_positive": 627,
+    "false_positive": 2564,
+    "false_negative": 2818,
+    "precision": 0.1964901284863679,
+    "recall": 0.18200290275761974,
+    "f1": 0.18896925858951175,
+    "precision_percent": 19.64901284863679,
+    "recall_percent": 18.200290275761972,
+    "f1_percent": 18.896925858951175
+  },
+  "evaluated_images": 1000,
+  "ground_truth_objects": 3445,
+  "minimum_available_score_threshold": 0.0,
+  "iou_threshold": 0.5,
+  "note": "Validation threshold selection on saved post-NMS predictions. Lower thresholds require a new detection run. Scores are processed in descending order with complete tie groups; filtering higher thresholds preserves greedy NMS and matching decisions."
+}

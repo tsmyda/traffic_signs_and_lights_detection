@@ -1,0 +1,31 @@
+{
+  "min_saturation": 0.4,
+  "min_value": 0.5,
+  "min_component_pixels": 2,
+  "min_component_fraction": 0.005,
+  "dominance_ratio": 1.2,
+  "hue_ranges_degrees": {
+    "red": [
+      [
+        0,
+        20
+      ],
+      [
+        340,
+        360
+      ]
+    ],
+    "yellow": [
+      [
+        20,
+        75
+      ]
+    ],
+    "green": [
+      [
+        75,
+        175
+      ]
+    ]
+  }
+}
