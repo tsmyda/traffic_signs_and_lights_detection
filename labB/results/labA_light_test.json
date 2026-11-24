@@ -1,0 +1,173 @@
+{
+  "name": "labA_light_test",
+  "predictions": "labA\\predictions\\traffic_light_colors.jsonl",
+  "split": "test",
+  "target": "traffic_light",
+  "processed_images": 20000,
+  "ground_truth_objects": 52817,
+  "iou_threshold": 0.5,
+  "score_threshold": 0.0,
+  "true_positive": 11773,
+  "false_positive": 45443,
+  "false_negative": 41044,
+  "precision": 0.20576412192393737,
+  "recall": 0.2229017172501278,
+  "f1": 0.21399034835004044,
+  "precision_percent": 20.576412192393736,
+  "recall_percent": 22.29017172501278,
+  "f1_percent": 21.399034835004045,
+  "mean_detection_seconds": null,
+  "fps": null,
+  "by_size": {
+    "0-8": {
+      "true_positive": 1069,
+      "false_positive": 4318,
+      "false_negative": 6816,
+      "precision": 0.19844069055132726,
+      "recall": 0.135573874445149,
+      "f1": 0.1610910186859554,
+      "precision_percent": 19.844069055132728,
+      "recall_percent": 13.557387444514902,
+      "f1_percent": 16.10910186859554
+    },
+    "16-32": {
+      "true_positive": 3286,
+      "false_positive": 12470,
+      "false_negative": 11859,
+      "precision": 0.20855547093170856,
+      "recall": 0.21696929679762297,
+      "f1": 0.21267920132034562,
+      "precision_percent": 20.855547093170856,
+      "recall_percent": 21.6969296797623,
+      "f1_percent": 21.26792013203456
+    },
+    "8-16": {
+      "true_positive": 7164,
+      "false_positive": 26853,
+      "false_negative": 20173,
+      "precision": 0.2106005820619102,
+      "recall": 0.26206240626257454,
+      "f1": 0.2335300061935652,
+      "precision_percent": 21.06005820619102,
+      "recall_percent": 26.206240626257454,
+      "f1_percent": 23.35300061935652
+    },
+    ">=32": {
+      "true_positive": 254,
+      "false_positive": 1802,
+      "false_negative": 2196,
+      "precision": 0.12354085603112841,
+      "recall": 0.1036734693877551,
+      "f1": 0.11273857079449623,
+      "precision_percent": 12.354085603112841,
+      "recall_percent": 10.36734693877551,
+      "f1_percent": 11.273857079449623
+    }
+  },
+  "by_timeofday": {
+    "dawn/dusk": {
+      "true_positive": 463,
+      "false_positive": 2007,
+      "false_negative": 3475,
+      "precision": 0.1874493927125506,
+      "recall": 0.1175723717623159,
+      "f1": 0.14450686641697877,
+      "precision_percent": 18.74493927125506,
+      "recall_percent": 11.75723717623159,
+      "f1_percent": 14.450686641697876
+    },
+    "daytime": {
+      "true_positive": 2071,
+      "false_positive": 8946,
+      "false_negative": 22538,
+      "precision": 0.1879822093128801,
+      "recall": 0.08415620301515706,
+      "f1": 0.11626340313254364,
+      "precision_percent": 18.79822093128801,
+      "recall_percent": 8.415620301515705,
+      "f1_percent": 11.626340313254364
+    },
+    "night": {
+      "true_positive": 9232,
+      "false_positive": 34439,
+      "false_negative": 15012,
+      "precision": 0.21139886881454512,
+      "recall": 0.3807952483088599,
+      "f1": 0.2718692483251123,
+      "precision_percent": 21.139886881454512,
+      "recall_percent": 38.079524830885994,
+      "f1_percent": 27.186924832511227
+    },
+    "undefined": {
+      "true_positive": 7,
+      "false_positive": 51,
+      "false_negative": 19,
+      "precision": 0.1206896551724138,
+      "recall": 0.2692307692307692,
+      "f1": 0.16666666666666666,
+      "precision_percent": 12.068965517241379,
+      "recall_percent": 26.923076923076923,
+      "f1_percent": 16.666666666666664
+    }
+  },
+  "color": {
+    "correctly_localized_lights": 11773,
+    "correct_colors": 9887,
+    "color_accuracy_percent": 83.98029389280558,
+    "per_class": {
+      "red": {
+        "support": 3272,
+        "precision": 0.9517374517374517,
+        "recall": 0.9040342298288508
+      },
+      "yellow": {
+        "support": 189,
+        "precision": 0.11175785797438882,
+        "recall": 0.5079365079365079
+      },
+      "green": {
+        "support": 7851,
+        "precision": 0.98531549869148,
+        "recall": 0.8632021398547955
+      },
+      "unknown": {
+        "support": 461,
+        "precision": 0.0603448275862069,
+        "recall": 0.12147505422993492
+      }
+    },
+    "confusion_labels": [
+      "red",
+      "yellow",
+      "green",
+      "unknown"
+    ],
+    "confusion_matrix": [
+      [
+        2958,
+        229,
+        17,
+        68
+      ],
+      [
+        84,
+        96,
+        1,
+        8
+      ],
+      [
+        27,
+        251,
+        6777,
+        796
+      ],
+      [
+        39,
+        283,
+        83,
+        56
+      ]
+    ]
+  },
+  "pr_curve": null
+}

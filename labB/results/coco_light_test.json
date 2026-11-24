@@ -1,0 +1,115 @@
+{
+  "name": "coco_light_test",
+  "predictions": "labB\\runs\\predictions\\coco_test.jsonl",
+  "split": "test",
+  "target": "traffic_light",
+  "processed_images": 20000,
+  "ground_truth_objects": 52817,
+  "iou_threshold": 0.5,
+  "score_threshold": 0.1470947265625,
+  "true_positive": 20301,
+  "false_positive": 30020,
+  "false_negative": 32516,
+  "precision": 0.40342997953140836,
+  "recall": 0.38436488251888595,
+  "f1": 0.3936667377688146,
+  "precision_percent": 40.34299795314084,
+  "recall_percent": 38.4364882518886,
+  "f1_percent": 39.36667377688146,
+  "mean_detection_seconds": 0.02530836726500254,
+  "fps": 39.5126240080624,
+  "by_size": {
+    "0-8": {
+      "true_positive": 1031,
+      "false_positive": 1021,
+      "false_negative": 6854,
+      "precision": 0.5024366471734892,
+      "recall": 0.1307545973367153,
+      "f1": 0.20750729596457684,
+      "precision_percent": 50.24366471734892,
+      "recall_percent": 13.07545973367153,
+      "f1_percent": 20.750729596457685
+    },
+    "16-32": {
+      "true_positive": 8146,
+      "false_positive": 12898,
+      "false_negative": 6999,
+      "precision": 0.3870937084204524,
+      "recall": 0.5378672829316606,
+      "f1": 0.4501920473071928,
+      "precision_percent": 38.70937084204524,
+      "recall_percent": 53.786728293166064,
+      "f1_percent": 45.01920473071928
+    },
+    "8-16": {
+      "true_positive": 9683,
+      "false_positive": 12444,
+      "false_negative": 17654,
+      "precision": 0.4376101595336015,
+      "recall": 0.3542085817756155,
+      "f1": 0.3915170629144428,
+      "precision_percent": 43.76101595336015,
+      "recall_percent": 35.42085817756155,
+      "f1_percent": 39.151706291444285
+    },
+    ">=32": {
+      "true_positive": 1441,
+      "false_positive": 3657,
+      "false_negative": 1009,
+      "precision": 0.28265986661435855,
+      "recall": 0.5881632653061224,
+      "f1": 0.38182299947005827,
+      "precision_percent": 28.265986661435853,
+      "recall_percent": 58.81632653061224,
+      "f1_percent": 38.18229994700582
+    }
+  },
+  "by_timeofday": {
+    "dawn/dusk": {
+      "true_positive": 1687,
+      "false_positive": 2520,
+      "false_negative": 2251,
+      "precision": 0.40099833610648916,
+      "recall": 0.42839004570848144,
+      "f1": 0.41424186617556785,
+      "precision_percent": 40.099833610648915,
+      "recall_percent": 42.83900457084815,
+      "f1_percent": 41.424186617556785
+    },
+    "daytime": {
+      "true_positive": 10892,
+      "false_positive": 11012,
+      "false_negative": 13717,
+      "precision": 0.4972607742878013,
+      "recall": 0.44260229997155515,
+      "f1": 0.4683421839055748,
+      "precision_percent": 49.72607742878013,
+      "recall_percent": 44.26022999715551,
+      "f1_percent": 46.83421839055748
+    },
+    "night": {
+      "true_positive": 7716,
+      "false_positive": 16455,
+      "false_negative": 16528,
+      "precision": 0.31922551818294653,
+      "recall": 0.3182643128196667,
+      "f1": 0.3187441908499432,
+      "precision_percent": 31.922551818294654,
+      "recall_percent": 31.82643128196667,
+      "f1_percent": 31.874419084994322
+    },
+    "undefined": {
+      "true_positive": 6,
+      "false_positive": 33,
+      "false_negative": 20,
+      "precision": 0.15384615384615385,
+      "recall": 0.23076923076923078,
+      "f1": 0.18461538461538463,
+      "precision_percent": 15.384615384615385,
+      "recall_percent": 23.076923076923077,
+      "f1_percent": 18.461538461538463
+    }
+  },
+  "color": null,
+  "pr_curve": null
+}

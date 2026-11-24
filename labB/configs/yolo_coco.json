@@ -1,0 +1,14 @@
+{
+  "name": "yolo_coco_11s",
+  "weights": "yolo11s.pt",
+  "imgsz": 1280,
+  "conf": 0.01,
+  "iou": 0.7,
+  "max_det": 100,
+  "half": true,
+  "agnostic_nms": false,
+  "class_map": {
+    "9": "traffic_light",
+    "11": "stop_sign"
+  }
+}

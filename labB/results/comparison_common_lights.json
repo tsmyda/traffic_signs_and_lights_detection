@@ -1,0 +1,22 @@
+{
+  "YOLO-COCO + HSV (H0)": {
+    "common_lights": 6149,
+    "first_accuracy_percent": 83.41193690030899,
+    "second_accuracy_percent": 83.81850707432103
+  },
+  "YOLO-COCO + HSV (H1)": {
+    "common_lights": 6149,
+    "first_accuracy_percent": 83.41193690030899,
+    "second_accuracy_percent": 83.76971865343958
+  },
+  "GT boxes + HSV (oracle H0)": {
+    "common_lights": 11773,
+    "first_accuracy_percent": 83.98029389280558,
+    "second_accuracy_percent": 84.2436082561794
+  },
+  "GT boxes + HSV (oracle H1)": {
+    "common_lights": 11773,
+    "first_accuracy_percent": 83.98029389280558,
+    "second_accuracy_percent": 78.64605453155525
+  }
+}

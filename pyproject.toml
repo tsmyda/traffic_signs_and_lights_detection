@@ -22,3 +22,17 @@ dev = [
     "ipykernel>=7.4.0",
     "nbconvert>=7.17.2",
 ]
+labb = [
+    "torch>=2.7",
+    "torchvision>=0.22",
+    "ultralytics>=8.3",
+]
+
+[tool.uv.sources]
+torch = { index = "pytorch-cu128" }
+torchvision = { index = "pytorch-cu128" }
+
+[[tool.uv.index]]
+name = "pytorch-cu128"
+url = "https://download.pytorch.org/whl/cu128"
+explicit = true

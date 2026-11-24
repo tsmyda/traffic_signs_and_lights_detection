@@ -1,0 +1,115 @@
+{
+  "name": "labA_sign_test",
+  "predictions": "C:\\Users\\tomas\\OneDrive\\Desktop\\lab04\\labA\\predictions\\traffic_sign.jsonl",
+  "split": "test",
+  "target": "traffic_sign",
+  "processed_images": 20000,
+  "ground_truth_objects": 68992,
+  "iou_threshold": 0.5,
+  "score_threshold": 0.0,
+  "true_positive": 12014,
+  "false_positive": 50964,
+  "false_negative": 56978,
+  "precision": 0.1907650290577662,
+  "recall": 0.17413613172541745,
+  "f1": 0.18207168295824808,
+  "precision_percent": 19.07650290577662,
+  "recall_percent": 17.413613172541744,
+  "f1_percent": 18.207168295824808,
+  "mean_detection_seconds": null,
+  "fps": null,
+  "by_size": {
+    "0-8": {
+      "true_positive": 152,
+      "false_positive": 222,
+      "false_negative": 4446,
+      "precision": 0.40641711229946526,
+      "recall": 0.03305785123966942,
+      "f1": 0.061142397425583264,
+      "precision_percent": 40.64171122994652,
+      "recall_percent": 3.3057851239669422,
+      "f1_percent": 6.114239742558326
+    },
+    "16-32": {
+      "true_positive": 5494,
+      "false_positive": 23787,
+      "false_negative": 19327,
+      "precision": 0.18763020388647927,
+      "recall": 0.22134482897546431,
+      "f1": 0.20309785220509408,
+      "precision_percent": 18.763020388647927,
+      "recall_percent": 22.13448289754643,
+      "f1_percent": 20.309785220509408
+    },
+    "8-16": {
+      "true_positive": 3728,
+      "false_positive": 18846,
+      "false_negative": 24132,
+      "precision": 0.1651457428900505,
+      "recall": 0.1338119167264896,
+      "f1": 0.14783677677757068,
+      "precision_percent": 16.51457428900505,
+      "recall_percent": 13.38119167264896,
+      "f1_percent": 14.783677677757067
+    },
+    ">=32": {
+      "true_positive": 2640,
+      "false_positive": 8109,
+      "false_negative": 9073,
+      "precision": 0.2456042422550935,
+      "recall": 0.2253905916503031,
+      "f1": 0.23506366307541626,
+      "precision_percent": 24.56042422550935,
+      "recall_percent": 22.53905916503031,
+      "f1_percent": 23.506366307541626
+    }
+  },
+  "by_timeofday": {
+    "dawn/dusk": {
+      "true_positive": 722,
+      "false_positive": 3919,
+      "false_negative": 4505,
+      "precision": 0.15556992027580263,
+      "recall": 0.13812894585804478,
+      "f1": 0.14633157681394407,
+      "precision_percent": 15.556992027580263,
+      "recall_percent": 13.812894585804477,
+      "f1_percent": 14.633157681394406
+    },
+    "daytime": {
+      "true_positive": 5917,
+      "false_positive": 36991,
+      "false_negative": 31780,
+      "precision": 0.13789969236506014,
+      "recall": 0.1569620924742022,
+      "f1": 0.14681471372743626,
+      "precision_percent": 13.789969236506014,
+      "recall_percent": 15.69620924742022,
+      "f1_percent": 14.681471372743626
+    },
+    "night": {
+      "true_positive": 5370,
+      "false_positive": 10020,
+      "false_negative": 20666,
+      "precision": 0.3489278752436647,
+      "recall": 0.2062528806268244,
+      "f1": 0.25925747115338194,
+      "precision_percent": 34.89278752436647,
+      "recall_percent": 20.62528806268244,
+      "f1_percent": 25.925747115338194
+    },
+    "undefined": {
+      "true_positive": 5,
+      "false_positive": 34,
+      "false_negative": 27,
+      "precision": 0.1282051282051282,
+      "recall": 0.15625,
+      "f1": 0.14084507042253522,
+      "precision_percent": 12.82051282051282,
+      "recall_percent": 15.625,
+      "f1_percent": 14.084507042253522
+    }
+  },
+  "color": null,
+  "pr_curve": null
+}

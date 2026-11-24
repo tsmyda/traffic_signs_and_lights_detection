@@ -11,3 +11,11 @@ wheels/
 
 # Data
 bdd100k_*/
+# Jupyter
+.ipynb_checkpoints/
+
+# Lab B: ciężkie artefakty (predykcje z niskim progiem, wagi, dataset YOLO)
+labB/runs/
+labB/data/
+*.pt
+*.onnx

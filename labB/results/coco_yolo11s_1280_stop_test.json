@@ -1,0 +1,115 @@
+{
+  "name": "coco_yolo11s_1280_stop_test",
+  "predictions": "C:\\Users\\tomas\\OneDrive\\Desktop\\lab04\\labB\\runs\\predictions\\coco_yolo11s_1280_test.jsonl",
+  "split": "test",
+  "target": "stop_sign",
+  "processed_images": 20000,
+  "ground_truth_objects": 68992,
+  "iou_threshold": 0.5,
+  "score_threshold": 0.010009765625,
+  "true_positive": 2046,
+  "false_positive": 1418,
+  "false_negative": 66946,
+  "precision": 0.5906466512702079,
+  "recall": 0.02965561224489796,
+  "f1": 0.05647565419012918,
+  "precision_percent": 59.06466512702079,
+  "recall_percent": 2.965561224489796,
+  "f1_percent": 5.647565419012919,
+  "mean_detection_seconds": 0.02530836726500254,
+  "fps": 39.5126240080624,
+  "by_size": {
+    "0-8": {
+      "true_positive": 2,
+      "false_positive": 7,
+      "false_negative": 4596,
+      "precision": 0.2222222222222222,
+      "recall": 0.00043497172683775554,
+      "f1": 0.0008682439765574126,
+      "precision_percent": 22.22222222222222,
+      "recall_percent": 0.04349717268377556,
+      "f1_percent": 0.08682439765574126
+    },
+    "16-32": {
+      "true_positive": 811,
+      "false_positive": 629,
+      "false_negative": 24010,
+      "precision": 0.5631944444444444,
+      "recall": 0.03267394544941783,
+      "f1": 0.061764593884467464,
+      "precision_percent": 56.31944444444444,
+      "recall_percent": 3.267394544941783,
+      "f1_percent": 6.176459388446746
+    },
+    "8-16": {
+      "true_positive": 283,
+      "false_positive": 383,
+      "false_negative": 27577,
+      "precision": 0.42492492492492495,
+      "recall": 0.010157932519741565,
+      "f1": 0.019841548061417653,
+      "precision_percent": 42.492492492492495,
+      "recall_percent": 1.0157932519741566,
+      "f1_percent": 1.9841548061417653
+    },
+    ">=32": {
+      "true_positive": 950,
+      "false_positive": 399,
+      "false_negative": 10763,
+      "precision": 0.704225352112676,
+      "recall": 0.08110646290446512,
+      "f1": 0.14546011330577246,
+      "precision_percent": 70.4225352112676,
+      "recall_percent": 8.110646290446512,
+      "f1_percent": 14.546011330577247
+    }
+  },
+  "by_timeofday": {
+    "dawn/dusk": {
+      "true_positive": 158,
+      "false_positive": 104,
+      "false_negative": 5069,
+      "precision": 0.6030534351145038,
+      "recall": 0.030227664052037497,
+      "f1": 0.05756968482419384,
+      "precision_percent": 60.30534351145038,
+      "recall_percent": 3.0227664052037495,
+      "f1_percent": 5.756968482419384
+    },
+    "daytime": {
+      "true_positive": 1387,
+      "false_positive": 1009,
+      "false_negative": 36310,
+      "precision": 0.578881469115192,
+      "recall": 0.03679337878345757,
+      "f1": 0.0691891352605193,
+      "precision_percent": 57.8881469115192,
+      "recall_percent": 3.6793378783457573,
+      "f1_percent": 6.91891352605193
+    },
+    "night": {
+      "true_positive": 501,
+      "false_positive": 304,
+      "false_negative": 25535,
+      "precision": 0.622360248447205,
+      "recall": 0.019242587186971884,
+      "f1": 0.037330948921426174,
+      "precision_percent": 62.2360248447205,
+      "recall_percent": 1.9242587186971885,
+      "f1_percent": 3.7330948921426175
+    },
+    "undefined": {
+      "true_positive": 0,
+      "false_positive": 1,
+      "false_negative": 32,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "precision_percent": 0.0,
+      "recall_percent": 0.0,
+      "f1_percent": 0.0
+    }
+  },
+  "color": null,
+  "pr_curve": null
+}
